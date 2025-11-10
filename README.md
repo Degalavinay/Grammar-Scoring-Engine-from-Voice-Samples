@@ -124,18 +124,7 @@ To build a regression model capable of accurately predicting the grammatical pro
 
 ---
 
-## 8. Results and Performance  
-
-| Model | RMSE | Pearson | Remarks |
-|:-------|:------:|:--------:|:--------|
-| Ridge Regression | 0.83 | 0.76 | Baseline model |
-| LightGBM | **0.77** | **0.82** | Best single model |
-| CNN (Mel-Spectrogram) | 0.74 | 0.84 | Captures speech fluency patterns |
-| Ensemble (Bayesian + Genetic) | **0.69** | **0.86** | Best cross-validation model |
-
----
-
-## 9. Analytical Insights  
+## 8. Analytical Insights  
 
 - High grammar proficiency correlates with **spectral smoothness** and **stable pitch contours**.  
 - Lower scores correspond to **irregular temporal energy patterns** and frequent pauses.  
@@ -144,7 +133,7 @@ To build a regression model capable of accurately predicting the grammatical pro
 
 ---
 
-## 10. Key Learnings  
+## 9. Key Learnings  
 
 1. Acoustic-based grammar assessment is achievable without transcription data.  
 2. Ensemble approaches outperform individual models, especially in small datasets.  
@@ -153,7 +142,7 @@ To build a regression model capable of accurately predicting the grammatical pro
 
 ---
 
-## 11. Future Enhancements  
+## 10. Future Enhancements  
 
 - Integrate **speech-to-text grammar correction** for hybrid (audio + text) modeling.  
 - Fine-tune transformer-based encoders (e.g., Audio Spectrogram Transformer, Audio-MAE).  
@@ -162,7 +151,7 @@ To build a regression model capable of accurately predicting the grammatical pro
 
 ---
 
-## 12. Deliverables  
+## 11. Deliverables  
 
 | File | Description |
 |:------|:-------------|
@@ -173,7 +162,7 @@ To build a regression model capable of accurately predicting the grammatical pro
 
 ---
 
-## 13. Acknowledgments  
+## 12. Acknowledgments  
 
 Organized by **SHL** (Intern Hiring Assessment 2025)  
 Challenge Lead: **Utkarsh Sharma**  
@@ -183,7 +172,7 @@ Acknowledgment to open-source contributors and libraries including **Librosa**, 
 
 ---
 
-## 14. Conclusion  
+## 13. Conclusion  
 
 The **Grammar Scoring Engine** demonstrates that grammatical accuracy in speech can be inferred from acoustic and prosodic features alone.  
 By combining **signal processing**, **machine learning**, and **Bayesian ensemble methods**, this solution establishes a scalable, data-efficient, and interpretable framework for spoken grammar evaluation.  
