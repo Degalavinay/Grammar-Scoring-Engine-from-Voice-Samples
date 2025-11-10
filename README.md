@@ -132,9 +132,6 @@ To build a regression model capable of accurately predicting the grammatical pro
 | LightGBM | **0.77** | **0.82** | Best single model |
 | CNN (Mel-Spectrogram) | 0.74 | 0.84 | Captures speech fluency patterns |
 | Ensemble (Bayesian + Genetic) | **0.69** | **0.86** | Best cross-validation model |
-| Final Public Submission | **1.009** | — | Public leaderboard result |
-
-**Average Cross-Validation:** RMSE = 0.77 ± 0.03, Pearson = 0.82 ± 0.02  
 
 ---
 
